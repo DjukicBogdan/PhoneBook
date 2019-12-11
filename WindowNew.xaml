@@ -1,0 +1,23 @@
+﻿<Window x:Class="PhoneBook.WindowNew"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneBook"
+        mc:Ignorable="d"
+        Title="New contact" Height="340" Width="360">
+    <Grid Background="AliceBlue">
+        <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Height="23" Margin="122,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="TextBoxPhone" HorizontalAlignment="Left" Height="23" Margin="122,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="TextBoxMobile" HorizontalAlignment="Left" Height="23" Margin="122,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="TextBoxEmail" HorizontalAlignment="Left" Height="23" Margin="122,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166"/>
+        <TextBox x:Name="TextBoxAddress" HorizontalAlignment="Left" Height="23" Margin="122,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166"/>
+        <Button x:Name="ButtonSubmit" Content="Submit" HorizontalAlignment="Left" Margin="122,233,0,0" VerticalAlignment="Top" Width="166" Height="24" Click="ButtonSubmit_Click"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="44,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="44,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Mobile" HorizontalAlignment="Left" Margin="44,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="44,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="44,180,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
